@@ -63,7 +63,7 @@ ul {
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    padding: 18px 48px;
+    padding: 18px 20px;
     background-color: var(--bg-page);
     border-bottom: 1px solid var(--box-border);
     box-shadow: 0 4px 20px rgba(110, 140, 255, 0.15);
@@ -72,7 +72,7 @@ ul {
 .nav-left {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 4px;
 }
 
 .nav-title {
@@ -84,7 +84,7 @@ ul {
 
 .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .nav-link {
@@ -757,6 +757,10 @@ html {
 
     .project-box {
         margin-bottom: 0;
+    }
+
+    .navbar {
+        padding: 18px 48px;
     }
 
 }
